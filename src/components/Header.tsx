@@ -44,6 +44,10 @@ export default function Header() {
           <Link href="/ideas/new" className="text-gray-700 dark:text-gray-300 hover:text-blue-500">
             Post Idea
           </Link>
+          <Link href="/investor" className="text-gray-700 dark:text-gray-300 hover:text-blue-500">
+  Investor
+</Link>
+
 
           {!email ? (
             <Link
